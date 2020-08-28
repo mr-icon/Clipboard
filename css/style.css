@@ -40,7 +40,7 @@ button._btn-b{
     color: white;
     font-weight: 80;
 }
-.btn{
+.btn-_b{
     text-align: center;
 }
 ._header{
@@ -81,11 +81,12 @@ button._btn-b{
     color: gray;
 }
 .card-1{
-    margin-left: 280px;
+    margin-left: 120px;
     margin-top: 280px;
 }
 .card-2{
     margin-bottom: 90px;
+    margin-left: 150px;
 }
 .card-title{
     margin-left: 310px;
@@ -100,7 +101,6 @@ button._btn-b{
     color: grey;
     margin-top: -20px;
 }
-
 .icon-list{
     list-style: none;
     display: flex;
@@ -110,30 +110,32 @@ button._btn-b{
 }
 .btn-b{
     text-align: center;
+    padding-top: 10px;
 }
 .OS-header{
-    margin-left: 510px;
+    margin-left: 460px;
     color: rgb(83, 78, 78);
 }
 .OS-desc{
-    margin-left: 380px;
+    margin-left: 420px;
+    padding-top: 10px;
     color: gray;
 }
 .OS-desc_b{
-    margin-left: 530px;
+    margin-left: 550px;
     margin-top: -20px;
     color: gray;
 }
-.OS-wrapper{
-    padding-top: 50px;
-    padding-bottom: 50px;
+.OS-banner{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
 ._footer{
     list-style: none;
     display: flex;
     margin-top: 24px;
     margin-left: 37px;
-    
 }
 .footer-link{
     list-style: none;
