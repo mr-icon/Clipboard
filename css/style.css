@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "poppins";
+    font-family: "(https://fontawesome.com/)";
     font-size: 18px;
 }
 
@@ -15,6 +15,7 @@ header{
     display: flex;
     padding-top: 106px;
     margin-left: 600px;
+    margin-bottom: -50px;
 }
 img.logo-img{
     height: 3opx;
@@ -27,7 +28,7 @@ button._btn{
     border-radius: 17px;
     background: lightseagreen;
     border: 2px solid #fff;
-    font-weight: 800;
+    font-weight: 80;
     color: white;
 }
 button._btn-b{
@@ -36,47 +37,124 @@ button._btn-b{
     border-radius: 17px;
     background: dodgerblue;
     border: 2px solid #fff;
-    font-weight: 800;
     color: white;
+    font-weight: 80;
 }
 .btn{
     text-align: center;
 }
 ._header{
     margin-left: 480px;
+    color: rgb(83, 78, 78);
 }
 .desc{
-    margin-left: 300px;
+    margin-left: 380px;
+    color: gray;
 }
-._banner {
+.desc_b{
+    margin-left: 580px;
+    margin-top: -20px;
+    color: gray;
+}
+._desc{
+    margin-left: 480px;
+    margin-top: 120px;
+}
+.title{
+    margin-left: 90px;
+    color: rgb(83, 78, 78);
+}
+.desc-title{
+    margin-left: -20px;
+    color: grey;
+}
+.desc-title_b{
+    margin-left: 200px;
+    color: grey;
+    margin-top: -20px;
+}
+.h_title{
+    color: rgb(83, 78, 78);
+    margin-top: 50px;
+}
+.-content-h{
+    color: gray;
+}
+.card-1{
+    margin-left: 280px;
+    margin-top: 280px;
+}
+.card-2{
+    margin-bottom: 90px;
+}
+.card-title{
+    margin-left: 310px;
+    color: rgb(83, 78, 78);
+}
+.desc-card{
+    margin-left: 200px;
+    color: grey;
+}
+.desc-card_b{
+    margin-left: 400px;
+    color: grey;
+    margin-top: -20px;
+}
+
+.icon-list{
+    list-style: none;
     display: flex;
+    margin-top: 24px;
+    margin-left: 37px;
     justify-content: space-between;
 }
-img.mock-img {
-    width: 87%;
-    float: right;
-    padding-right: 75px;
+.btn-b{
+    text-align: center;
 }
-h3._header{
-    font-size: 33px;
-    font-family: "poppins"; 
-    margin-top: 108px;
-    margin-left: 91;
+.OS-header{
+    margin-left: 510px;
+    color: rgb(83, 78, 78);
 }
-p.desc{
-    font-size: 18px;
-    padding-left: 89px;
+.OS-desc{
+    margin-left: 380px;
+    color: gray;
 }
-button.p_btn{
-    padding: 12px 27px;
-    border-radius: 20px;
-    margin-left: 79px;
-    margin-top: 19px;
-    background: hsl(322, 100%, 66%);
-    border: 2px solid hsl(332, 100%, 66%);
-    color: #fff;
-    font-size: 16px;
-    font-weight: 700;
+.OS-desc_b{
+    margin-left: 530px;
+    margin-top: -20px;
+    color: gray;
+}
+.OS-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+._footer{
+    list-style: none;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 37px;
+    
+}
+.footer-link{
+    list-style: none;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 37px;
+    justify-content: stretch;
+}
+.footer-link_b{
+    list-style: none;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 37px;
+    justify-content: stretch;
+}
+.icon-list_b{
+    list-style: none;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 37px;
+    justify-content: stretch;
 }
 .wrapper{
     display: flex;
@@ -90,21 +168,7 @@ button.p_btn{
     box-shadow: 0px 1px 2px 2px #f4f4f4;
     border-radius: 10px;
 }
-img.img-grow{
-    width: 100%;
-    float: right;
-    margin: 25px 0px;
-}
-h2.wrap-title{
-    margin-top: 147px;
-    margin-left: 125px;
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: -6px;
-}
-p.wrap-desc{
-    padding: 0px 129px;
-}
+
 footer{
-    background: grey
+    background: rgb(243, 239, 239)
 }
