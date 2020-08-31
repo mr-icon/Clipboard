@@ -1,4 +1,4 @@
-body{
+/* body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -173,4 +173,277 @@ button._btn-b{
 
 footer{
     background: rgb(243, 239, 239)
+} */
+
+/* MAIN STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body {
+    font-family: 'Bai Jamjuree';
+    font-size: 18px;
+    margin: 0;
 }
+
+.container {
+    text-align: center;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5em;
+    color: hsl(201, 11%, 66%);
+}
+
+h1,h2, h3, h4 {
+    color: hsl(210, 10%, 33%);
+}
+
+.logo {
+    margin-top: 120px;
+    width: 10%;
+}
+
+header {
+    background-image: url('../image/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-color: rgb(253, 253, 253);
+}
+
+.header-title {
+    padding: 0.2em 5em 0em 5em;
+    margin: 1.2em 2em;
+    font-size: 42px;
+}
+
+.header-desc {
+    margin: -1.7em .5em 0 .5em;
+}
+
+.header-btn {
+    margin-top: 2em;
+}
+
+.ios-btn {
+    text-decoration: none;
+    border-radius: 24px;
+    background: hsl(171, 66%, 44%);
+    box-shadow: 0px 2px 5px 1px hsl(171, 66%, 44%);
+    color: white;
+    padding: .5em 2em;
+    margin: .5em 0.5em;
+}
+
+.mac-btn {
+    text-decoration: none;
+    border-radius: 24px;
+    background: hsl(233, 100%, 69%);
+    box-shadow: 0px 2px 5px 1px hsl(233, 100%, 69%);
+    color: white;
+    padding: .5em 2em;
+    margin: .5em 0.5em;
+}
+
+._desc {
+    margin-top: 8em;
+}
+
+.desc-title {
+    font-size: 38px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-1 {
+    margin-top: 5em;
+    margin-left: -4.5em;
+    width: 100%;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-flow: column;
+    text-align: justify;
+    margin-top: 6em;
+    margin-right: 10em;
+    
+}
+
+.content-wrapper h4 {
+    font-size: 24px;
+    padding-right: 6em;
+    margin-top: 1em;
+}
+.content-wrapper p {
+    margin-top: -1em;
+    padding: .2em 0em;
+}
+
+.card {
+    margin-top: 6em;
+}
+
+.card-title {
+    font-size: 38px;
+}
+
+.card-img {
+    margin-top: 4em;
+}
+
+.wrapper-2 {
+    margin-top: 4em;
+}
+
+.wrapper-2 h4 {
+    font-size: 38px;
+
+}
+
+.wrapper-2 p {
+    margin-top: -2em;
+}
+
+.content-wrapper2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4em 4em 0 4em;
+}
+
+.content-wrapper2 h4 {
+    font-size: 24px;
+    padding-top: 0.5em;
+}
+
+.content-wrapper2 p {
+    padding-top: 1em;
+    line-height: 1.5em;
+}
+
+ .content-wrapper2 div:nth-child(1) img {
+    height: 14%;
+}
+
+.icon-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 6em 2em 0 0em;
+}
+
+.OS-banner {
+    margin-top: 8em;
+}
+
+.OS-header {
+    font-size: 38px;
+}
+.OS-desc {
+    margin-top: -1em;
+    line-height: 1.5em;
+
+}
+
+.btn-b {
+    margin-top: 4em;
+}
+
+.OS-banner {
+    margin-bottom: 10em;
+}
+
+._footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background: hsl(0, 0%, 95%);
+    height: 200px;
+}
+
+.footer-img {
+    height: 4em;
+    margin: 3.2em 4em 0 0;
+    padding: 0 0 0 3em;
+}
+
+.footer-link {
+    padding: 2em 0em;
+    margin: 1em -6em;
+}
+
+.footer-link li {
+    list-style-type: none;
+    margin-left: -1em;
+    text-align: justify;
+    line-height: 2em;
+    color: hsl(210, 10%, 33%);
+}
+
+.social {
+    margin-right: 2em;
+}
+.icon-list_b li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-top: 4em;
+    padding: 0 .5em;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 375px) {
+    .logo {
+        width: 20%;
+        margin: 8em 0 0 0;
+    }
+    
+    .header-wrapper {
+        /* background-image: url('../image/bg-header-mobile.png'); */
+        background-repeat: no-repeat;
+        background-color: rgb(253, 253, 253);
+        /* margin-right: 50px; */
+    } 
+ 
+    h2.header-title {
+        margin: 1em .5em 0em .5em;
+        padding: .5em .2em 0 .2em;
+        font-size: 32px;
+    }
+
+    p.header-desc {
+        margin: 1em .5em;
+        padding: .2em 1em;
+    }
+    
+    .header-btn {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .ios-btn {
+        text-decoration: none;
+        border-radius: 24px;
+        background: hsl(171, 66%, 44%);
+        box-shadow: 0px 2px 5px 1px hsl(171, 66%, 44%);
+        color: white;
+        padding: .5em 2em;
+        margin: .5em 2em;
+    }
+
+    .mac-btn {
+        text-decoration: none;
+        border-radius: 24px;
+        background: hsl(233, 100%, 69%);
+        box-shadow: 0px 2px 5px 1px hsl(233, 100%, 69%);
+        color: white;
+        padding: .5em 2em;
+        margin: .5em 2em;
+    }
+} 
+ 
