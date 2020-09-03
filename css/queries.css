@@ -57,6 +57,46 @@
         font-size: 28px;
         padding: 0.5em;
     }
+    .wrapper {
+        display: flex;
+        flex-flow: column;
+    }
+    .img-1 {
+        margin-top: 5em;
+        margin-left: 3.5em;
+        width: 100%;
+    }
+    .content-wrapper {
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        margin-top: 6em;
+        margin-right: 6em;
+        margin-left: 4em; 
+        width: 100%;
+    }
+    .h4-1{
+        font-size: 40px;
+        width: 100%;
+    }
+    .h4-2{
+        font-size: 40px;
+        width: 100%;
+    }
+    .h4-3{
+        font-size: 40px;
+        width: 100%;
+    }
+    .p-1{
+        font-size: 26px;
+    }
+    .p-2{
+        font-size: 26px;
+        padding: 0px 38px;
+    }
+    .p-3{
+        font-size: 26px;
+    }
 }
 
 @media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
