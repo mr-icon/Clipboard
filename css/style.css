@@ -399,6 +399,16 @@ footer {
     padding: 0 .5em;
 }
 
+#preloader{
+    background: #000 url('../image/preloader.gif') center center;
+    background-size: 15%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 /* Media Queries */
 
 /* @media only screen and (max-width: 375px) {
