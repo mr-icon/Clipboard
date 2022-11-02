@@ -75,6 +75,9 @@
         margin-left: 4em; 
         width: 100%;
     }
+    .content-wrapper h4 {
+        font-size: 32px;
+    }
     .h4-1{
         font-size: 40px;
         width: 100%;
@@ -97,7 +100,137 @@
     .p-3{
         font-size: 26px;
     }
+    .card-title {
+        font-size: 48px;
+        width: 122%;
+    }
+    .card-desc{
+        margin: 0 -0.9em;
+        width: 113%;
+        padding: 0 2em;
+        font-size: 26px;
+    }
+    .card-img {
+        width: 100%;
+        margin-left: 3.5em;
+        margin-top: 4em;
+    }
+    .flow-title {
+        font-size: 48px;
+        width: 122%;
+    } 
+    .flow-desc{
+        font-size: 28px;
+        width: 100%;
+        margin-left: 2em;
+    }
+    .content-wrapper2 {
+        display: flex;
+        flex-flow: column;
+    }
+    .cont-img {
+        width: 20%;
+    }
+    .content-wrapper2 div:nth-child(2) img {
+        margin-top: 2em;
+    }
+    .content-wrapper2 div:nth-child(3) img {
+        margin-top: 2em;
+    }
+    .feat-wrap {
+        margin-left: 3em;
+        width: 107%;
+    }
+    .cont-title {
+        font-size: 32px;
+    }
+    .cont-title:nth-child(2) {
+        font-size: 32px;
+    }
+    .cont-title:nth-child(3) {
+        font-size: 32px;
+    }
+    /* .cont-desc {
+        font-size: 24px;
+        width: 136%;
+        margin-left: -2.7em;
+    } */
+
+    .cont-desc1 {
+        font-size: 24px;
+        width: 135%;
+        margin-left: -3em;
+    }
+    .cont-desc2 {
+        font-size: 24px;
+        width: 142%;
+        margin-left: -3.2em;
+    }
+    .cont-desc3 {
+        font-size: 24px;
+        width: 150%;
+        margin-left: -3.9em
+    }
+    .icon-list {
+        display: flex;
+        flex-flow: column;
+        margin-left: 6em;
+    }
+    .icon-list li {
+        padding: 3em 0;
+    }
+    .OS-header{
+        margin-left: 1.3em;
+        width: 100%;
+    }
+    .OS-desc{
+        font-size: 24px;
+        width: 103%;
+        margin-left: 2em;
+    }
+    .btn-b{
+        display: flex;
+        flex-flow: column;
+        margin-left: 1em;
+        width: 115%;
+    }
+    footer{
+        height: 500px;
+        width: 127%;
+    }
+    .footer-img {
+        width: 18%;
+        margin-left: 8em;
+    }
+    .footer-menu {
+        display: flex;
+        flex-flow: column;
+    }
+    .footer-link {
+        margin: 1em -10em;
+        font-size: 24px;
+    }
+    .links1 {
+        margin-top: 4.5em;
+    }
+    .links2 {
+        margin-top: -8em;
+    }
+    .links3 {
+        margin-top: -8em;
+    }
+    .social {
+        margin-top: 20em;
+        
+    }
+    .icon-list_b {
+        margin-left: -30em;
+    }
+    .icon-list_b li {
+        padding: 0 1.5em;
+    }
 }
+   
 
 @media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
 
